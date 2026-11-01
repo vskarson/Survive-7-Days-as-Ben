@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Survive 7 Days as Ben</title>
+  <style>
+    html, body { margin: 0; padding: 0; height: 100%; background: #000; overflow: hidden; }
+    #game { width: 100vw; height: 100vh; }
+    canvas { display: block; image-rendering: crisp-edges; image-rendering: pixelated; }
+  </style>
+</head>
+<body>
+  <div id="game"></div>
+
+  <!-- Phaser 3 from CDN. Everything else uses relative paths so it works from a GitHub Pages subfolder. -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.80.1/phaser.min.js"></script>
+  <script src="content.js"></script>
+  <script src="src/state.js"></script>
+  <script src="src/save.js"></script>
+  <script src="src/art.js"></script>
+  <script src="src/people.js"></script>
+  <script src="src/audio.js"></script>
+  <script src="src/music.js"></script>
+  <script src="src/maps.js"></script>
+  <script src="src/ui/font.js"></script>
+  <script src="src/ui/DialogueBox.js"></script>
+  <script src="src/ui/Menu.js"></script>
+  <script src="src/scenes/BootScene.js"></script>
+  <script src="src/scenes/TitleScene.js"></script>
+  <script src="src/scenes/PauseScene.js"></script>
+  <script src="src/scenes/SettingsScene.js"></script>
+  <script src="src/scenes/SlotsScene.js"></script>
+  <script src="src/scenes/DayIntroScene.js"></script>
+  <script src="src/scenes/WorldScene.js"></script>
+  <script src="src/scenes/UIScene.js"></script>
+  <script src="src/scenes/FastForwardScene.js"></script>
+  <script src="src/scenes/EndingScene.js"></script>
+  <script src="src/scenes/StatsScene.js"></script>
+  <script src="src/minigames/common.js"></script>
+  <script src="src/minigames/GuitarScene.js"></script>
+  <script src="src/minigames/OrdersScene.js"></script>
+  <script src="src/minigames/CleanRoomScene.js"></script>
+  <script src="src/minigames/ZynScene.js"></script>
+  <script src="src/minigames/PracticeScene.js"></script>
+  <script src="src/minigames/FridayGameScene.js"></script>
+  <script src="src/minigames/DirtbikeScene.js"></script>
+  <script src="src/minigames/MarkersScene.js"></script>
+  <script src="src/minigames/AvoidChevyScene.js"></script>
+  <script src="src/minigames/MathScene.js"></script>
+  <script src="src/minigames/SamTantrumScene.js"></script>
+  <script src="src/scenes/Cutscene.js"></script>
+  <script src="src/scenes/ChevyAttackScene.js"></script>
+  <script src="src/scenes/PartySongScene.js"></script>
+  <script src="src/main.js"></script>
+</body>
+</html>
